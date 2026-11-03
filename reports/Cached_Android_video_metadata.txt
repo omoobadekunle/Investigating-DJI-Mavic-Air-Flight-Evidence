@@ -1,0 +1,7 @@
+codec_name=h264
+width=1280
+height=720
+r_frame_rate=30/1
+filename=/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4/DJI_RECORD/2018_06_19_14_50_39.mp4
+duration=240.972400
+size=57791765

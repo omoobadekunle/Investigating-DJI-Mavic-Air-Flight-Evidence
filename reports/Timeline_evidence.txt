@@ -1,0 +1,4 @@
+FLY057: 2018-06-19 18:50:34–18:55:39 UTC
+Cached video sidecar: 2018-06-19 14:50:39 EDT (18:50:39 UTC if EDT is correct)
+FLY058: valid GPS timestamps 2018-06-19 19:00:23–19:02:08 UTC
+Note: temporal and coordinate correlation does not prove the files represent the same flight.

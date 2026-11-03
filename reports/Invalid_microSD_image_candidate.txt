@@ -1,0 +1,2 @@
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/evidence/df048_internal_microSD.001:   HTML document, ASCII text, with very long lines (58004)
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/evidence/df048_internal_microSD.001.1: HTML document, ASCII text, with very long lines (58014)

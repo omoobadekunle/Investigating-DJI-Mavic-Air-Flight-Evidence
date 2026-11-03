@@ -1,0 +1,7 @@
+codec_name=h264
+width=3840
+height=2160
+r_frame_rate=30000/1001
+filename=/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/SD_DJI_0003.MP4
+duration=291.024067
+size=3759523376

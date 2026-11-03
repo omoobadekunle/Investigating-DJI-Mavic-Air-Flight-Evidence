@@ -1,0 +1,6 @@
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4/CACHE_IMAGE
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4/DJI_RECORD
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4/DJI_RECORD/analytics
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4/FlightRecord
+/run/media/kali/DATA/SBT-DF204-Case_Study_5/working/android_extract/Android_Logical/sdcard/DJI/dji.go.v4/FlightRecord/MCDatFlightRecords
