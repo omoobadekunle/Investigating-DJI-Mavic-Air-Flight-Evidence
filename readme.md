@@ -1,8 +1,9 @@
 <div align="center">
 
-# 🚁 Investigating DJI Mavic Air Flight Evidence
+# 🚁 SBT-DF204 · Case Study 5  
+#  Investigating DJI Mavic Air Flight Evidence
 
-### SBT-DF204 · Case Study 5 · Digital Forensics Lab Report
+###  Digital Forensics Lab Report
 
 ![Domain](https://img.shields.io/badge/Domain-Mobile%20%26%20IoT%20Forensics-blue)
 ![Platform](https://img.shields.io/badge/Source-Android%20Logical%20Extraction-green)
@@ -14,6 +15,22 @@
 *A forensic examination of DJI GO 4 artefacts, flight-controller telemetry, and cached video evidence recovered from an Android logical extraction.*
 
 </div>
+
+---  
+
+## 1. Case Information
+
+| Field | Details |
+| :--- | :--- |
+| **Case Title** | Investigating DJI Mavic Air Flight Evidence |
+| **Case Reference** | SBT-DF204 – Case Study 5 |
+| **Course** | SBT-DF205 – Mobile and IoT Forensics Case Study |
+| **Programme** | Fellowship in Web Application Security & Digital Forensics |
+| **Batch** | BATCH-B2025 · L1/S2 |
+| **Student Name** | Adekunle Ogunyemi |
+| **Student ID** | 2025/FWSD/11479 |
+| **Instructor** | Aminu Idris, AMCPN |
+| **Report Date** | 2 October 2026 |  
 
 ---
 
@@ -44,19 +61,7 @@
 
 ---
 
-## 1. Case Information
 
-| Field | Details |
-| :--- | :--- |
-| **Case Title** | Investigating DJI Mavic Air Flight Evidence |
-| **Case Reference** | SBT-DF204 – Case Study 5 |
-| **Course** | SBT-DF205 – Mobile and IoT Forensics Case Study |
-| **Programme** | Fellowship in Web Application Security & Digital Forensics |
-| **Batch** | BATCH-B2025 · L1/S2 |
-| **Student Name** | Adekunle Ogunyemi |
-| **Student ID** | 2025/FWSD/11479 |
-| **Instructor** | Aminu Idris, AMCPN |
-| **Report Date** | 2 October 2026 |
 
 [⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
@@ -129,7 +134,11 @@ The examination addresses:
 6. The available TXT flight records were **not** decoded with a validated parser. ExifTool returned a file-format error for the 2018 TXT record; no unsupported interpretation was assigned to its raw integer values.
 7. The sidecar header says **EDT**. If its `14:50:39` time is EDT (UTC−4), it converts to `18:50:39 UTC`. This is a **conditional interpretation**, not an independently verified clock configuration.
 
-*Figure01_Case_Directory.*  
+<img width="880" height="509" alt="image" src="https://github.com/user-attachments/assets/54128f29-3b5e-461b-9478-6f41545bc428" />
+*Figure01_Case_Directory.*    
+
+  
+<img width="864" height="452" alt="image" src="https://github.com/user-attachments/assets/a289016d-582c-4ad5-bcf4-2acde65be767" />
 *Figure02_Android_ZIP_Hashes.*  
 
 
@@ -156,6 +165,7 @@ The examination addresses:
 | `SD_DJI_0005.MP4` | 1,473,715,936 bytes; H.264 3840×2160; 29.97 fps; 114.081 s | `890e7c07f2d747cdbdffe8939636fc1c4f1230ce592db8d91fff8742551f8192` |
 | Raw microSD / EWF | Candidate `.001` files were ~201 KB HTML error pages, not valid images; no valid EWF found | ❌ Unavailable / invalid |
 
+<img width="975" height="553" alt="image" src="https://github.com/user-attachments/assets/1f54d31b-b53f-4210-a9a1-e890596956da" />
 *Figure03_Recovered_Video_Inventory*  
 
 
@@ -183,6 +193,7 @@ Their presence supports that DJI-related application data existed in the logical
 
 The six thumbnails include indoor/workbench or equipment imagery and outdoor landscape imagery. Filename number strings were not independently validated as capture timestamps, and the examined JPEGs did not provide verified EXIF GPS/capture-time data. They are treated as **cached visual artefacts**, not standalone proof of location or chronology.
 
+<img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/88aa169b-9b80-49e6-bc1f-10ccbf136483" />
 *Figure04_DJI_GO4_Artefacts*  
 
 
@@ -229,7 +240,10 @@ The six thumbnails include indoor/workbench or equipment imagery and outdoor lan
 
 The 2018 main TXT record was not decoded with a validated parser. ExifTool reported a file-format error, and `strings` output did not provide reliable, readable content. **No substantive flight events are attributed to it.** File-system modification time is not proof of actual flight time.
 
-*Figure05_FLY057_Telemetry*  
+<img width="975" height="559" alt="image" src="https://github.com/user-attachments/assets/79e5e602-8808-4fcf-99fe-f054b0c17814" />
+*Figure05_FLY057_Telemetry*    
+
+<img width="975" height="551" alt="image" src="https://github.com/user-attachments/assets/7b957768-4485-4ef0-adeb-94a2f84be85a" />
 *Figure06_FLY058_Coordinate_Anomaly*  
 
 
@@ -272,9 +286,16 @@ EndTimeMsec is about **6.14 seconds shorter** than the ffprobe duration; the rea
 
 The outdoor views share broad visual characteristics, but sampled frames alone **cannot establish** the same location or event.
 
-*Figure07_Cached_Video_Metadata*  
-*Figure08_Recovered_Video_Metadata*  
-*Figure09_Cached_Video_Frame*  
+<img width="975" height="594" alt="image" src="https://github.com/user-attachments/assets/da5f30c8-ba0e-4fda-9d4d-3fe4c3df5cc5" />
+*Figure07_Cached_Video_Metadata*    
+
+<img width="975" height="587" alt="image" src="https://github.com/user-attachments/assets/258be8c8-ff28-4fbf-9e7f-e54f4767b26c" />
+*Figure08_Recovered_Video_Metadata*    
+
+<img width="975" height="554" alt="image" src="https://github.com/user-attachments/assets/f254bf90-3172-4c3e-bf85-9556512194d1" />
+*Figure09_Cached_Video_Frame*    
+
+<img width="975" height="500" alt="image" src="https://github.com/user-attachments/assets/4b4eb273-4ec1-4ab3-9143-53142e0778ff" />
 *Figure10_Recovered_Outdoor_Frame*  
 
 
@@ -296,7 +317,10 @@ Although five large MP4 files are in the working directory, their presence does 
 
 These tasks remain **outstanding** pending correct image evidence and acquisition records.
 
-*Figure11_Invalid_MicroSD_Candidates*  
+<img width="975" height="588" alt="image" src="https://github.com/user-attachments/assets/c06394ef-17f1-41fc-9804-c4fc8e63931e" />
+*Figure11_Invalid_MicroSD_Candidates*    
+
+<img width="975" height="589" alt="image" src="https://github.com/user-attachments/assets/a105761d-b646-4ec2-bd03-1eb14a4c65a3" />
 *Figure12_EWF_Search*  
 
 
@@ -316,6 +340,7 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 | 2018-06-19 19:00:23–19:02:08 | FLY058 valid GPS timestamp interval | Many rows lack timestamps; coordinate anomaly present |
 | 2018-06-19 14:50:39 *(local)* | Cached MP4 CaptureDate | Original local time retained; UTC conversion conditional |
 
+<img width="975" height="497" alt="image" src="https://github.com/user-attachments/assets/eccf9086-8ebc-40da-a09d-0d8e2019c826" />
 *Figure13_UTC_Timeline*  
 
 
@@ -405,11 +430,12 @@ Figure captions appear in the relevant sections above, as in the main report.
 
 ## 16. Author
 
-**Adekunle Ogunyemi**
-Registration No.: 2025/FWSD/11479
+**Adekunle Ogunyemi**  
+Registration No.: 2025/FWSD/11479  
 Fellowship in Web Application Security & Digital Forensics · BATCH-B2025 · L1/S2
 
-**Instructor:** Aminu Idris, AMCPN
+**Instructor:**   
+Aminu Idris, AMCPN
 
 ---
 
