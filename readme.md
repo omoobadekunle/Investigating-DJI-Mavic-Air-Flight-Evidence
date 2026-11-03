@@ -129,8 +129,10 @@ The examination addresses:
 6. The available TXT flight records were **not** decoded with a validated parser. ExifTool returned a file-format error for the 2018 TXT record; no unsupported interpretation was assigned to its raw integer values.
 7. The sidecar header says **EDT**. If its `14:50:39` time is EDT (UTC−4), it converts to `18:50:39 UTC`. This is a **conditional interpretation**, not an independently verified clock configuration.
 
-*Figure01_Case_Directory.*  
-*Figure02_Android_ZIP_Hashes.*  
+![Figure01_Case_Directory](images/Figure01_Case_Directory.png)
+*Figure01_Case_Directory*  
+![Figure02_Android_ZIP_Hashes](images/Figure02_Android_ZIP_Hashes.png)
+*Figure02_Android_ZIP_Hashes*  
 
 
 [⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
@@ -156,6 +158,7 @@ The examination addresses:
 | `SD_DJI_0005.MP4` | 1,473,715,936 bytes; H.264 3840×2160; 29.97 fps; 114.081 s | `890e7c07f2d747cdbdffe8939636fc1c4f1230ce592db8d91fff8742551f8192` |
 | Raw microSD / EWF | Candidate `.001` files were ~201 KB HTML error pages, not valid images; no valid EWF found | ❌ Unavailable / invalid |
 
+![Figure03_Recovered_Video_Inventory](images/Figure03_Recovered_Video_Inventory.png)
 *Figure03_Recovered_Video_Inventory*  
 
 
@@ -183,6 +186,7 @@ Their presence supports that DJI-related application data existed in the logical
 
 The six thumbnails include indoor/workbench or equipment imagery and outdoor landscape imagery. Filename number strings were not independently validated as capture timestamps, and the examined JPEGs did not provide verified EXIF GPS/capture-time data. They are treated as **cached visual artefacts**, not standalone proof of location or chronology.
 
+![Figure04_DJI_GO4_Artefacts](images/Figure04_DJI_GO4_Artefacts.png)
 *Figure04_DJI_GO4_Artefacts*  
 
 
@@ -229,7 +233,9 @@ The six thumbnails include indoor/workbench or equipment imagery and outdoor lan
 
 The 2018 main TXT record was not decoded with a validated parser. ExifTool reported a file-format error, and `strings` output did not provide reliable, readable content. **No substantive flight events are attributed to it.** File-system modification time is not proof of actual flight time.
 
+![Figure05_FLY057_Telemetry](images/Figure05_FLY057_Telemetry.png)
 *Figure05_FLY057_Telemetry*  
+![Figure06_FLY058_Coordinate_Anomaly](images/Figure06_FLY058_Coordinate_Anomaly.png)
 *Figure06_FLY058_Coordinate_Anomaly*  
 
 
@@ -272,9 +278,13 @@ EndTimeMsec is about **6.14 seconds shorter** than the ffprobe duration; the rea
 
 The outdoor views share broad visual characteristics, but sampled frames alone **cannot establish** the same location or event.
 
+![Figure07_Cached_Video_Metadata](images/Figure07_Cached_Video_Metadata.png)
 *Figure07_Cached_Video_Metadata*  
+![Figure08_Recovered_Video_Metadata](images/Figure08_Recovered_Video_Metadata.png)
 *Figure08_Recovered_Video_Metadata*  
+![Figure09_Cached_Video_Frame](images/Figure09_Cached_Video_Frame.png)
 *Figure09_Cached_Video_Frame*  
+![Figure10_Recovered_Outdoor_Frame](images/Figure10_Recovered_Outdoor_Frame.png)
 *Figure10_Recovered_Outdoor_Frame*  
 
 
@@ -296,7 +306,9 @@ Although five large MP4 files are in the working directory, their presence does 
 
 These tasks remain **outstanding** pending correct image evidence and acquisition records.
 
+![Figure11_Invalid_MicroSD_Candidates](images/Figure11_Invalid_MicroSD_Candidates.png)
 *Figure11_Invalid_MicroSD_Candidates*  
+![Figure12_EWF_Search](images/Figure12_EWF_Search.png)
 *Figure12_EWF_Search*  
 
 
@@ -316,6 +328,7 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 | 2018-06-19 19:00:23–19:02:08 | FLY058 valid GPS timestamp interval | Many rows lack timestamps; coordinate anomaly present |
 | 2018-06-19 14:50:39 *(local)* | Cached MP4 CaptureDate | Original local time retained; UTC conversion conditional |
 
+![Figure13_UTC_Timeline](images/Figure13_UTC_Timeline.png)
 *Figure13_UTC_Timeline*  
 
 
@@ -381,7 +394,7 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 
 ## 15. Figures Referenced in the Report
 
-Figure captions appear in the relevant sections above, as in the main report.
+Each figure appears in the relevant section above, at the position shown in the main report. Screenshots are linked from the `images/` folder, so add each file there using the exact name shown (for example, `images/Figure01_Case_Directory.png`).
 
 | Figure | Description |
 | :--- | :--- |
