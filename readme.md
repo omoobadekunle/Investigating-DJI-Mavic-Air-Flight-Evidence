@@ -63,8 +63,6 @@
 
 
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
-
 ---
 
 ## 2. Executive Summary
@@ -82,7 +80,6 @@ The available evidence supports a telemetry sequence on **19 June 2018** and a c
 
 > ⚠️ **Major limitation:** The purported raw microSD image files examined earlier were small HTML pages stating that a link was temporarily disabled, rather than valid disk images. No valid EWF image was located. Raw microSD image analysis and EWF verification/comparison therefore **could not be completed**. These gaps are disclosed rather than inferred.
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -100,7 +97,6 @@ The examination addresses:
 
 **Constraints:** Work was limited to offline examination of available case files and working copies. No live drone was connected, and no evidence was uploaded to an external analysis service.
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -115,7 +111,6 @@ The examination addresses:
 | **ExifTool** | Metadata inspection (returned a file-format error on the 2018 TXT record) |
 | **strings** | Readable-content check on the main TXT record (no reliable content produced) |
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -142,8 +137,6 @@ The examination addresses:
 *Figure02_Android_ZIP_Hashes.*  
 
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
-
 ---
 
 ## 6. Evidence Inventory and Integrity Log
@@ -168,8 +161,6 @@ The examination addresses:
 <img width="975" height="553" alt="image" src="https://github.com/user-attachments/assets/1f54d31b-b53f-4210-a9a1-e890596956da" />
 *Figure03_Recovered_Video_Inventory*  
 
-
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -196,8 +187,6 @@ The six thumbnails include indoor/workbench or equipment imagery and outdoor lan
 <img width="975" height="548" alt="image" src="https://github.com/user-attachments/assets/88aa169b-9b80-49e6-bc1f-10ccbf136483" />
 *Figure04_DJI_GO4_Artefacts*  
 
-
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -246,8 +235,6 @@ The 2018 main TXT record was not decoded with a validated parser. ExifTool repor
 <img width="975" height="551" alt="image" src="https://github.com/user-attachments/assets/7b957768-4485-4ef0-adeb-94a2f84be85a" />
 *Figure06_FLY058_Coordinate_Anomaly*  
 
-
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -299,8 +286,6 @@ The outdoor views share broad visual characteristics, but sampled frames alone *
 *Figure10_Recovered_Outdoor_Frame*  
 
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
-
 ---
 
 ## 10. Raw microSD and EWF Image Examination
@@ -324,7 +309,6 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 *Figure12_EWF_Search*  
 
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -344,8 +328,6 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 *Figure13_UTC_Timeline*  
 
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
-
 ---
 
 ## 12. Key Findings
@@ -360,7 +342,6 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 | 6 | No exact location, aircraft operator, owner or identity of any person is established. |
 | 7 | Raw microSD and EWF analysis remains **incomplete** because valid image evidence was unavailable; this is a material limitation. |
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -373,7 +354,6 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 - [ ] Confirm timezone/clock settings and source documentation before relying on the EDT-to-UTC conversion.
 - [ ] Preserve working copies and generated reports; hash analysis outputs and screenshots in the final evidence log.
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -400,7 +380,6 @@ These tasks remain **outstanding** pending correct image evidence and acquisitio
 | `SD_DJI_0004.MP4` | H.264; 3840×2160; 30000/1001 fps | 132.699 s | 1,714,275,603 B |
 | `SD_DJI_0005.MP4` | H.264; 3840×2160; 30000/1001 fps | 114.081 s | 1,473,715,936 B |
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -424,7 +403,6 @@ Figure captions appear in the relevant sections above, as in the main report.
 | Figure 12 | EWF search |
 | Figure 13 | UTC timeline |
 
-[⬆ Back to top](#-investigating-dji-mavic-air-flight-evidence)
 
 ---
 
@@ -445,6 +423,5 @@ This report records work performed and evidence available. It does **not** claim
 
 <div align="center">
 
-**⬆ [Back to top](#-investigating-dji-mavic-air-flight-evidence)**
 
 </div>
